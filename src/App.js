@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Landing from './components/Landing/index';
 
-function App() {
+const App = () => {
   return (
     <div>
-     Aquila
+      <Landing />
     </div>
   );
 }
