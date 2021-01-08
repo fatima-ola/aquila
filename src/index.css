@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Thasadith&display=swap');
 body{
   padding: 0;
   margin: 0;
@@ -10,9 +11,57 @@ body{
 .box-image{
   position: absolute;
   margin: auto;
-  top: 10%;
+  top: 15%;
   right: 0;
   bottom: 0;
   left: 0;
   width: 100%; 
 }
+
+h3{
+  font-family: 'Teko', sans-serif;
+  font-family: 'Thasadith', sans-serif;
+  letter-spacing: 9px;
+  word-spacing: 18px;
+}
+
+.socialicon{
+  float: right;
+  margin-top: 15%;
+  margin-right: 2%;
+
+}
+
+li{
+  margin-top: 20px!important;
+}
+
+a.instagram, a.twitter, a.snapchat, a.envelope {
+  color: #ffffff;
+}
+
+/* .navigation{
+  display: inline;
+} */
+
+.iconimg{
+  margin-top: 20px;
+}
+
+.navigate{
+  color: #ffffff;
+  cursor: default;
+  font-family: 'Teko', sans-serif;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 23px;
+  word-spacing: 2em!important;
+ 
+}
+
+a.navigate{
+  display: inline-block!important;
+ margin: 0 20px;
+ letter-spacing: 10px;
+}
+
+
